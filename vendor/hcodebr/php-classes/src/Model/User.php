@@ -89,7 +89,7 @@ class User extends Model {
             
         ));
 
-        $this->setData($results);
+        $this->setData($results[0]);
 
     }
 
