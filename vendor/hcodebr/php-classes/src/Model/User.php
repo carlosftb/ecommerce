@@ -89,8 +89,6 @@ class User extends Model {
             
         ));
 
-        var_dump($results);
-        exit;
         $this->setData($results);
 
     }
